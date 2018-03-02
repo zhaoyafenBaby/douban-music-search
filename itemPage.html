@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="./itemPage.css">
+</head>
+<body>
+	<div class = "title-nav">
+		<div class="title-left">
+			<ul>
+				<li>
+					<a href="#">豆瓣</a>
+				</li>
+				<li>
+					<a href="#">读书</a>
+				</li>
+				<li>
+					<a href="#">电影</a>
+				</li>
+
+				<li>
+					<a href="#">音乐</a>
+				</li>
+				<li>
+					<a href="#">同城</a>
+				</li>
+				<li>
+					<a href="#">小组</a>
+				</li>
+				<li>
+					<a href="#">阅读</a>
+				</li>
+				<li>
+					<a href="#">FM</a>
+				</li>
+				<li>
+					<a href="#">时间</a>
+				</li>
+				<li>
+					<a href="#">市集</a>
+				</li>
+				<li>
+					<a href="#">更多</a>
+				</li>
+			</ul>
+		</div>
+		<div class="title-right">
+			<ul>
+				<li>
+					<a href="#">下载豆瓣客户端</a>
+				</li>
+				<li>
+					<a href="#">登录</a>
+				</li>
+				<li>
+					<a href="#">注册</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class = "title-bottom">
+		<div class="center">
+			<div class="search-nav">
+				<div class="logo">
+					<a href="https://music.douban.com/"></a>
+				</div>
+				<div class="search-box">
+					<form action="https://music.douban.com/subject_search">
+						<input type="text" placeholder="唱片名、表演者、条码、ISRC" class = "inp" name="search_text" autocomplete="off">
+						<input type="submit" value = "" class = "sub">
+					</form>
+				</div>
+				<div class = "search-data">
+					<ul>
+						<!-- <li>
+							<a href="#">
+								<img src="./img/logo.png" alt="">
+								<div>
+									<span>aaa</span>
+									<p>sasdfjdskfjsl</p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="./img/logo.png" alt="">
+								<div>
+									<span>aaa</span>
+									<p>sasdfjdskfjsl</p>
+								</div>
+							</a>
+						</li> -->
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class = "list-nav">
+		<div class="center">
+			<ul>
+				<li>
+					<a href="https://music.douban.com/artists/">音乐人</a>
+				</li>
+				<li>
+					<a href="https://music.douban.com/artists/">潮潮豆瓣音乐周</a>
+				</li>
+				<li>
+					<a href="https://music.douban.com/artists/">金羊毛计划</a>
+				</li>
+				<li>
+					<a href="https://music.douban.com/artists/">专题</a>
+				</li>
+				<li>
+					<a href="https://music.douban.com/artists/">排行榜</a>
+				</li>
+				<li>
+					<a href="https://music.douban.com/artists/">分类浏览</a>
+				</li>
+				<li>
+					<a href="https://music.douban.com/artists/">乐评</a>
+				</li>
+				<li>
+					<a href="https://music.douban.com/artists/">豆瓣FM</a>
+				</li>
+				<li>
+					<a href="https://music.douban.com/artists/">歌单</a>
+				</li>
+				<li>
+					<a href="https://music.douban.com/artists/">阿比鹿音乐奖</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class = "center add">
+		<!-- <strong class="song-title">成都</strong>
+		<div class="song">
+			<div class="song-content">
+				<div class = "song-list">
+					<img src="./img/song.jpg" alt="">
+					<ul>
+						<li>表演者：<em><a href="#">赵雷</a></em></li>
+						<li>流派：<span>民谣</span></li>
+						<li>专辑类型：<span>单曲</span></li>
+						<li>介质：<span>数字(Digital)</span></li>
+						<li>发行时间：<span>2016-10-24</span></li>
+						<li>出版者:<span>StreetVoice</span></li>
+					</ul>
+					<div class = "a">
+						<a href="#">听相似歌曲</a>
+					</div>
+
+				</div>
+				<div class="song-mark">
+					<p>豆瓣评分</p>
+					<span class = "mark-num">7.5</span>
+					<div class="star">
+						<div class="star-img">
+						</div>
+						<span class = "star-people">5653人评价</span>
+					</div>
+					<div class="star-list">
+						<ul>
+							<li>5星 52.9%</li>
+							<li>4星 28.6%</li>
+							<li>3星 12.3%</li>
+							<li>2星 3.4%</li>
+							<li>1星 2.8%</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div> -->
+	</div>
+
+	<script src = "./js/jquery.js"></script>
+	<script src = "./js/index.js"></script>
+	<script src = "./js/itemPage.js"></script>
+	<!-- <script>
+	var id = location.search.slice(1).split('=')[1];
+		$.ajax({
+			type : 'GET',
+			url : 'https://api.douban.com/v2/music/' + id,
+			success : function(data){
+				console.log(data)
+				console.log(data.attrs.singer)
+			},
+			dataType : 'jsonp'
+		})
+	</script> -->
+</body>
+</html>
